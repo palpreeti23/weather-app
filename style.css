@@ -15,7 +15,8 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   background-image: linear-gradient(rgb(76, 188, 216), rgb(99, 71, 201), rgb(112, 38, 89));
+   /* background-image: linear-gradient(rgb(76, 188, 216), rgb(99, 71, 201), rgb(112, 38, 89)); */
+   background-image: linear-gradient(rgb(129, 127, 127),rgb(28, 18, 73), rgb(47, 29, 47));
    border-radius: 1em;
    display: flex;
    flex-direction: column;
@@ -67,7 +68,8 @@
 .city-name{
     font-size: 2.5rem;
     color: white;
-    transform: translate(30%, -50%);
+    /* text-align: center; */
+    transform: translate(35%, -50%);
 }
 
 .info{
@@ -91,10 +93,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 1em;
+    font-size: 1.4em;
 }
 
 
-.humi-level{
-    /* padding-bottom: .5em; */
-}
